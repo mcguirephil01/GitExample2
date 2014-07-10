@@ -21,6 +21,7 @@
 		B01D7977196F200300954D8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01D7959196F200200954D8E /* UIKit.framework */; };
 		B01D797F196F200300954D8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B01D797D196F200300954D8E /* InfoPlist.strings */; };
 		B01D7981196F200300954D8E /* GitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D7980196F200300954D8E /* GitExampleTests.m */; };
+		B01D798C196F24A000954D8E /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D798B196F24A000954D8E /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B01D797C196F200300954D8E /* GitExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitExampleTests-Info.plist"; sourceTree = "<group>"; };
 		B01D797E196F200300954D8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B01D7980196F200300954D8E /* GitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExampleTests.m; sourceTree = "<group>"; };
+		B01D798A196F24A000954D8E /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		B01D798B196F24A000954D8E /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				B01D796B196F200200954D8E /* ViewController.m */,
 				B01D796D196F200200954D8E /* Images.xcassets */,
 				B01D795C196F200200954D8E /* Supporting Files */,
+				B01D798A196F24A000954D8E /* MapForItinerary.h */,
+				B01D798B196F24A000954D8E /* MapForItinerary.m */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01D798C196F24A000954D8E /* MapForItinerary.m in Sources */,
 				B01D796C196F200200954D8E /* ViewController.m in Sources */,
 				B01D7966196F200200954D8E /* AppDelegate.m in Sources */,
 				B01D7962196F200200954D8E /* main.m in Sources */,
